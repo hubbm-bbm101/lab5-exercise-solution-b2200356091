@@ -1,6 +1,6 @@
 import random
 number = random.randint(1,100)
-print("sayı 1 ile 100 arasındadır.")
+print("the number is between 1 and 100.")
 quess = 0
 while quess != number:
     quess = int(input("enter your quess:"))
